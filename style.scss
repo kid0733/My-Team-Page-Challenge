@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Open+Sans:wght@300;600;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1500px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro h1 {
+  font-family: "Instrument Serif";
+  font-size: 1.86rem;
+}
+.intro h2 {
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+.intro p {
+  width: 300px;
+}
+.intro .description {
+  padding: 15px;
+  padding-left: 0;
+  padding-top: 75px;
+}
+/*Grid and images*/
+.people img {
+  width: 300px;
+  padding-top: 50px;
+}
+.people p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.people .person-middle {
+  padding-top: 100px;
+}
+
+.people .verticle {
+  font-family: "Instrument Serif";
+  display: inline-block;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-weight: lighter;
+  padding-bottom: 350px;
+}
+.people .first {
+  padding-bottom: 296px;
+}
+.people .fourth {
+  padding-bottom: 320px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1480px) {
+  body {
+    max-width: 786px;
+    padding-left: 35px;
+  }
+  .five {
+    padding-top: 0px;
+  }
+  .mobile {
+    padding-top: 100px;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
